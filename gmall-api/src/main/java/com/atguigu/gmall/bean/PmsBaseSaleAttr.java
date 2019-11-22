@@ -2,12 +2,14 @@ package com.atguigu.gmall.bean;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
  * @param
  * @return
  */
+@Table(name = "pms_base_sale_attr")
 public class PmsBaseSaleAttr implements Serializable {
 
     @Id

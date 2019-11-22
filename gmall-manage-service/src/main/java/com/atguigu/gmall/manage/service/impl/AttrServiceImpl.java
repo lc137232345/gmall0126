@@ -3,8 +3,10 @@ package com.atguigu.gmall.manage.service.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.atguigu.gmall.bean.PmsBaseAttrInfo;
 import com.atguigu.gmall.bean.PmsBaseAttrValue;
+import com.atguigu.gmall.bean.PmsBaseSaleAttr;
 import com.atguigu.gmall.manage.mapper.PmsBaseAttrInfoMapper;
 import com.atguigu.gmall.manage.mapper.PmsBaseAttrValueMapper;
+import com.atguigu.gmall.manage.mapper.PmsBaseSaleAttrMapper;
 import com.atguigu.gmall.service.AttrService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,8 @@ public class AttrServiceImpl implements AttrService {
     private PmsBaseAttrInfoMapper pmsBaseAttrInfoMapper;
     @Autowired
     private PmsBaseAttrValueMapper pmsBaseAttrValueMapper;
+    @Autowired
+    private PmsBaseSaleAttrMapper pmsBaseSaleAttrMapper;
     @Override
     public List<PmsBaseAttrInfo> attrInfoList(String catalog3Id) {
         PmsBaseAttrInfo pmsBaseAttrInfo=new PmsBaseAttrInfo();
@@ -33,7 +37,7 @@ public class AttrServiceImpl implements AttrService {
 
             //id为空 ，保存
             //保存属性，获得主键  属性表
-            pmsBaseAttrInfoMapper.insert(pmsBaseAttrInfo);//insert inserselective 是否将null插入数据库
+            pmsBaseAttrInfoMapper.insertSelective(pmsBaseAttrInfo);//insert inserselective 是否将null插入数据库
             //保存属性值   属性值表
             List<PmsBaseAttrValue> attrValueList = pmsBaseAttrInfo.getAttrValueList();
             for (PmsBaseAttrValue pmsBaseAttrValue : attrValueList) {
@@ -70,6 +74,12 @@ public class AttrServiceImpl implements AttrService {
         PmsBaseAttrValue pmsBaseAttrValue=new PmsBaseAttrValue();
         pmsBaseAttrValue.setAttrId(attrId);
         return   pmsBaseAttrValueMapper.select(pmsBaseAttrValue);
+
+    }
+
+    @Override
+    public List<PmsBaseSaleAttr> baseSaleAttrList() {
+      return  pmsBaseSaleAttrMapper.selectAll();
 
     }
 }
