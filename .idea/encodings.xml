@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gmall-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/OmsCartItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/OmsCompanyAddress.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/OmsOrder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/OmsOrderItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PaymentInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseAttrInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseAttrValue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseCatalog1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseCatalog2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseSaleAttr.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBrand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductImage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductSaleAttr.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductSaleAttrValue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuAttrValue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuImage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuSaleAttrValue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/UmsMember.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/UmsMemberReceiveAddress.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-manage-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-service-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-user-serivice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-user-serivice/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gmall-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-web-util" charset="UTF-8" />
+  </component>
+</project>

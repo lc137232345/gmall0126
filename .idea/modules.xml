@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gmall-api/gmall-api.iml" filepath="$PROJECT_DIR$/gmall-api/gmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" filepath="$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-manage-service/gmall-manage-service.iml" filepath="$PROJECT_DIR$/gmall-manage-service/gmall-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-manage-web/gmall-manage-web.iml" filepath="$PROJECT_DIR$/gmall-manage-web/gmall-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-parent/gmall-parent.iml" filepath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-service-util/gmall-service-util.iml" filepath="$PROJECT_DIR$/gmall-service-util/gmall-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user/gmall-user.iml" filepath="$PROJECT_DIR$/gmall-user/gmall-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user-serivice/gmall-user-serivice.iml" filepath="$PROJECT_DIR$/gmall-user-serivice/gmall-user-serivice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" filepath="$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" filepath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gmall0126.iml" filepath="$PROJECT_DIR$/.idea/gmall0126.iml" />
+    </modules>
+  </component>
+</project>
