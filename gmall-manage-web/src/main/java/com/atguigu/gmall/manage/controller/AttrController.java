@@ -16,6 +16,7 @@ import java.util.List;
 
 @Controller
 @CrossOrigin
+@RequestMapping
 public class AttrController {
     @Reference
     private AttrService attrService;

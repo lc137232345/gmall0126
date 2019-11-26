@@ -27,7 +27,15 @@ public class AttrServiceImpl implements AttrService {
     public List<PmsBaseAttrInfo> attrInfoList(String catalog3Id) {
         PmsBaseAttrInfo pmsBaseAttrInfo=new PmsBaseAttrInfo();
         pmsBaseAttrInfo.setCatalog3Id(catalog3Id);
-        return pmsBaseAttrInfoMapper.select(pmsBaseAttrInfo);
+        //添加平台属性值
+        List<PmsBaseAttrInfo> pmsBaseAttrInfos = pmsBaseAttrInfoMapper.select(pmsBaseAttrInfo);
+        for (PmsBaseAttrInfo baseAttrInfo : pmsBaseAttrInfos) {
+            PmsBaseAttrValue pmsBaseAttrValue=new PmsBaseAttrValue();
+            pmsBaseAttrValue.setAttrId(baseAttrInfo.getId());
+            baseAttrInfo.setAttrValueList(pmsBaseAttrValueMapper.select(pmsBaseAttrValue));
+
+        }
+        return pmsBaseAttrInfos;
     }
 
     @Override
@@ -77,9 +85,12 @@ public class AttrServiceImpl implements AttrService {
 
     }
 
+
+    //获得销售基础属性
     @Override
     public List<PmsBaseSaleAttr> baseSaleAttrList() {
       return  pmsBaseSaleAttrMapper.selectAll();
-
     }
+
+    //获得
 }

@@ -8,7 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/Program Files/apache-maven-3.6.2/repository/com/alibaba/dubbo/2.6.0/dubbo-2.6.0-sources.jar!/" />
-      <root url="jar://D:/Program Files/apache-maven-3.6.2/repository/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/" />
     </SOURCES>
   </library>
 </component>
